@@ -5,7 +5,7 @@ assets:
 #Wheel Of Fortune
 - name: map/jp/tt34.map
   multi:
-    - name: map/us/tt34.map
+    - name: map/tt34.map
   method: binarc
   source:
   - name: MAP
@@ -15,7 +15,7 @@ assets:
     - name: map/tt34.texture
 - name: map/jp/eh21.map
   multi:
-    - name: map/us/eh21.map
+    - name: map/eh21.map
   method: binarc
   source:
   - name: MAP
@@ -26,14 +26,14 @@ assets:
 #Top TWTNW
 - name: map/jp/eh18.map
   multi:
-    - name: map/us/eh18.map
+    - name: map/eh18.map
   method: copy
   source:
   - name: map/eh18.map
 #PETER
 - name: map/jp/al13.map
   multi:
-    - name: map/us/al13.map
+    - name: map/al13.map
   method: binarc
   source:
   - name: SK0
