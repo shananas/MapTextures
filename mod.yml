@@ -41,3 +41,19 @@ assets:
     method: copy
     source:
     - name: map/SK0.texture
+
+- name: map/jp/eh20.map
+  multi:
+    - name: map/eh20.map
+  method: binarc
+  source:
+  - name: MAP
+    type: ModelTexture
+    method: copy
+    source:
+    - name: map/eh20MAP.texture
+  - name: SK0
+    type: ModelTexture
+    method: copy
+    source:
+    - name: map/eh20SK0.texture
