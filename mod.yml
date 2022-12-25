@@ -57,3 +57,10 @@ assets:
     method: copy
     source:
     - name: map/eh20SK0.texture
+#Hunny Slider
+- name: map/jp/po07.map
+  multi:
+    - name: map/po07.map
+  method: copy
+  source:
+  - name: map/po07.map
